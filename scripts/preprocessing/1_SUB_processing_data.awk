@@ -1,6 +1,6 @@
 #! /usr/bin/awk -f
-# this script gets the Reaxys identification substance, its molecular formula, year and Reaxys document identification where the substances was published first time, 
-# This script is based on the idea of Andres Camilo Marulanda Bran on July 14 2022.
+# This script gets Reaxys substance identification, i.e. molecular formula, first publication year and Reaxys document identification 
+# The script is based upon a similar code by Andres Camilo Marulanda Bran as of July 14 2022.
 # #
 BEGIN {
     a="IDE.XRN,IDE.MF,CIT.PY,CNR.CNR"
